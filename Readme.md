@@ -5,6 +5,7 @@ This project corresponds to the paper **"A Two-Stage Profit Allocation Method fo
 - Show the core implementation structure.
 - Help reviewers or interested researchers understand or partially reproduce the results;
 - Serve as a basis for full open-sourcing in the future.
+- Update for the 10,50 member case. The detailed illustration is in the readme of case4-4
 
 ❗ This project is finished and submitted.  Please do not reuse or redistribute without permission. 
 
@@ -36,6 +37,10 @@ This project corresponds to the paper **"A Two-Stage Profit Allocation Method fo
 │    *Note: Due to the sensitivity of real operational data, full data access is restricted. Please contact |			us if needed.However, the profit allocation results can still be reproduced using the provided   |           matrices in  without_Operator 
 │   └── Deviation_Check                  # Check the value of the deviation between the expectation and the |                                         ex-post average
 │   └── Case_4_3_Figure_8/                # Plot the figure for figure 8
+├── Case_4_4_Case/                       # enlarged case (based on actual operation data)
+|
+|
+|
 ├── Allocation_Functions/                                # Core functions used for profit allocation  
 │   ├── compute_Least_Core.m                             # Least Core allocation implementation (Simplified Nucleolus-First Step)
 │   ├── compute_Nucleolus.m                             # Nucleolus allocation implementation (calculate the |                                                           allocation of the nucleolus method)
