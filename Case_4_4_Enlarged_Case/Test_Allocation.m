@@ -1,14 +1,14 @@
 addpath("Test_Solution\");
 addpath("Allocation_Function_Ind\");
 DP_Scenario=zeros(18,1);
-Base_matrix=ind_listg1(10);
+Base_matrix=ind_listg1(40);
 f_vec = cellfun(@(s) s.f, Day_ahead_result);
 Profit_matrix_DA=[Base_matrix,f_vec];
 Added_O=Operator_2_Ind(Profit_matrix_DA);
 Expected_Allocation=compute_dp_ind(Added_O);
 DP_Expected=propensity_check_Ind(Added_O,Expected_Allocation);
 DP_ahead=DP_Expected(end,end);
-DP_Two=zeros(11,18);
+DP_Two=zeros(41,18);
 for i=1:18
     f_vec = cellfun(@(s) s.f, Real_Time_result(:,i)); % real-time generation profit
     Profit_matrix=[Base_matrix,f_vec]; Added_matrix=Operator_2_Ind(Profit_matrix); % Generate the real-time profit

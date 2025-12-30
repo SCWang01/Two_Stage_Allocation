@@ -10,7 +10,6 @@ Parameter=data_definition_large(0,VPP_List);
 fg=ind_listg1(50);
 nScen = size(Parameter.Lmpda,2);
 
-
 nI = size(fg,1);
 Day_ahead_result = cell(nI,1);
 Real_Time_result = cell(nI,nScen);
