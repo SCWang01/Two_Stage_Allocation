@@ -1,13 +1,11 @@
 # Readme
 
-This project corresponds to the paper **"A Two-Stage Profit Allocation Method for Virtual Power Plants Considering Uncertainties"**. This repository provides partial code and interface structures for our research project. It aims to:
+This project corresponds to the paper **"A Two-Stage Profit Allocation Method for Virtual Power Plants Considering Uncertainties"**. This paper has been accepted and published. This repository provides partial code and interface structures for our research project. It aims to:
 
 - Show the core implementation structure.
 - Help reviewers or interested researchers understand or partially reproduce the results;
 - Serve as a basis for full open-sourcing in the future.
-- Update for the 10,50 member case. The detailed illustration is in the readme of case4-4
-
-❗ This project is finished and submitted.  Please do not reuse or redistribute without permission. 
+- Update for the 10,50 member case. The detailed illustration is in the README  of case4-4
 
 ##  Project Structure
 
@@ -34,7 +32,7 @@ This project corresponds to the paper **"A Two-Stage Profit Allocation Method fo
 │       ├── Result_DA/                            # Day-Ahead Expectaion
 │       ├── Result_RT /                   # Real-Time Operation Solution
 │       ├── Result_Mar/                  # Actual Real-Time Operation
-│    *Note: Due to the sensitivity of real operational data, full data access is restricted. Please contact |			us if needed.However, the profit allocation results can still be reproduced using the provided   |           matrices in  without_Operator 
+│    *Note: Due to the sensitivity of real operational data, full access to the original dataset is restricted. The data used in |     this study have been cleaned and restructured, and no longer contain sensitive information. However, the profit allocation |      results can still be reproduced using the provided matrices in Without_Operator. Please contact us if additional         |        information is required.
 │   └── Deviation_Check                  # Check the value of the deviation between the expectation and the |                                         ex-post average
 │   └── Case_4_3_Figure_8/                # Plot the figure for figure 8
 ├── Case_4_4_Case/                       # enlarged case (based on actual operation data)
@@ -61,7 +59,7 @@ We plan to make the full code, data, and documentation publicly available after 
 #  Notes
 
 To protect intellectual property, certain parts of the code or data may be redacted or simplified.
- If you require further clarification, feel free to contact us via the email : wsc23@mails.tsinghua.edu.cn
+ If you require further clarification, feel free to contact us via the emai : wsc23@mails.tsinghua.edu.cn
 
 ##  License
 
