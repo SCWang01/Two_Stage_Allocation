@@ -49,6 +49,14 @@ This project corresponds to the paper **"A Two-Stage Profit Allocation Method fo
 To protect intellectual property, certain parts of the code or data may be redacted or simplified.
  If you require further clarification, feel free to contact us via the email : wsc23@mails.tsinghua.edu.cn
 
+
+
+## Reference
+
+ "A two-stage profit allocation method for virtual power plants based on the propensity to disrupt," in *IEEE Transactions on Smart Grid*
+
+
+
 ##  License
 
 This code is currently released for academic preview only and is not yet licensed for public use.  
