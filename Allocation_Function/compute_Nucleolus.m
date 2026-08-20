@@ -1,6 +1,6 @@
 function [nucleolus, sigma_trace] = compute_Nucleolus(matrix)
     % 基础参数
-    [num_rows, num_cols] = size(matrix);
+    % It is based on the paper Risk-based profit allocation to DERs integrated with a virtual power plant using cooperative Game theory    [num_rows, num_cols] = size(matrix);
     n = num_cols - 1; % 玩家数量
     fg = matrix(2:end, 1:n); % 联盟的二进制表示（每一行为一个联盟）
     v = matrix(2:end, end);  % 每个联盟的收益

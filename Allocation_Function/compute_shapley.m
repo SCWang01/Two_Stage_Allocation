@@ -1,4 +1,5 @@
 function shapley_values = compute_shapley(matrix)
+% The reference is Risk-based profit allocation to DERs integrated with a virtual power plant using cooperative Game theory
     [num_rows, num_cols] = size(matrix);
     n = num_cols - 1;
     shapley_values = zeros(1, n);
