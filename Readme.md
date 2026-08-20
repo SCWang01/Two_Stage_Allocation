@@ -1,6 +1,6 @@
 # Readme
 
-This project corresponds to the paper **"A Two-Stage Profit Allocation Method for Virtual Power Plants Considering Uncertainties"**. This paper has been accepted and published. This repository provides partial code and interface structures for our research project.
+This project corresponds to the paper **"A Two-Stage Profit Allocation Method for Virtual Power Plants Considering Uncertainties"**.  This paper has been accepted and published. This repository provides partial code and interface structures for our research project.
 
 ##  Project Structure
 
@@ -35,17 +35,16 @@ This project corresponds to the paper **"A Two-Stage Profit Allocation Method fo
 |
 |
 ├── Allocation_Functions/                                # Core functions used for profit allocation  
-│   ├── compute_Least_Core.m                             # Least Core allocation implementation (Simplified Nucleolus-First Step)
-│   ├── compute_Nucleolus.m                             # Nucleolus allocation implementation (calculate the |                                                           allocation of the nucleolus method)
+│   ├── compute_Nucleolus.m                             # Nucleolus allocation implementation (calculate the |                                                          allocation of the nucleolus method) Reference: Risk-based profit allocation to DERs integrated with a virtual power plant using cooperative Game theory 
 │   ├── compute_dp.m                                     # Equal DP allocation method  
-│   ├── compute_shapley.m                                # Shapley value allocation  
+│   ├── compute_shapley.m                                # Shapley value allocation: Reference: Risk-based profit allocation to DERs integrated with a virtual power plant using cooperative Game theory 
 │   ├── Operator_2.m                                     # Matrix generation with operator consideration  
 │   ├── Binary_list.m                                    # Generates all member combinations  
 │   ├── Consider_Operator.m                              # Allocation calculation considering the operator  
-│   └── Without_Operator.m                               # Matrix generation for the "Consider_Operator" function  
+│   └── Without_Operator.m                               # Matrix generation for the "Consider_Operator"   
 ```
 
-#  Notes
+## Notes
 
 To protect intellectual property, certain parts of the code or data may be redacted or simplified.
  If you require further clarification, feel free to contact us via the email : wsc23@mails.tsinghua.edu.cn
@@ -54,4 +53,3 @@ To protect intellectual property, certain parts of the code or data may be redac
 
 This code is currently released for academic preview only and is not yet licensed for public use.  
 Please do not reuse or redistribute without permission.  
-Final licensing terms will be added after formal publication.
